@@ -19,6 +19,7 @@
 		1652BBE628E62E5B00350E1E /* EditImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1652BBE528E62E5B00350E1E /* EditImageViewController.swift */; };
 		1652BBE828E62E6D00350E1E /* EditImageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1652BBE728E62E6D00350E1E /* EditImageViewModel.swift */; };
 		1652BBEB28E6375B00350E1E /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1652BBEA28E6375B00350E1E /* ImagePicker.swift */; };
+		1652BBEE28E63A8F00350E1E /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 1652BBED28E63A8F00350E1E /* README.md */; };
 		16562F7C28E620A00080EA6B /* EditPhoneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16562F7B28E620A00080EA6B /* EditPhoneViewController.swift */; };
 		16562F7E28E6217A0080EA6B /* EditPhoneViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16562F7D28E6217A0080EA6B /* EditPhoneViewModel.swift */; };
 		16562F8128E621BC0080EA6B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16562F8028E621BC0080EA6B /* ViewController.swift */; };
@@ -50,6 +51,7 @@
 		1652BBE528E62E5B00350E1E /* EditImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditImageViewController.swift; sourceTree = "<group>"; };
 		1652BBE728E62E6D00350E1E /* EditImageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditImageViewModel.swift; sourceTree = "<group>"; };
 		1652BBEA28E6375B00350E1E /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		1652BBED28E63A8F00350E1E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		16562F7B28E620A00080EA6B /* EditPhoneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditPhoneViewController.swift; sourceTree = "<group>"; };
 		16562F7D28E6217A0080EA6B /* EditPhoneViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditPhoneViewModel.swift; sourceTree = "<group>"; };
 		16562F8028E621BC0080EA6B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -209,6 +211,7 @@
 				16788C7C28E50AD000279110 /* Assets.xcassets */,
 				16788C7E28E50AD000279110 /* LaunchScreen.storyboard */,
 				16788C8128E50AD000279110 /* Info.plist */,
+				1652BBED28E63A8F00350E1E /* README.md */,
 			);
 			path = FriendlyGeek;
 			sourceTree = "<group>";
@@ -313,6 +316,7 @@
 				16788C8028E50AD000279110 /* LaunchScreen.storyboard in Resources */,
 				16788C7D28E50AD000279110 /* Assets.xcassets in Resources */,
 				16788C7B28E50ACF00279110 /* Main.storyboard in Resources */,
+				1652BBEE28E63A8F00350E1E /* README.md in Resources */,
 				163CB4B728E5118900113AD6 /* WithoutSans-Bold.ttf in Resources */,
 				163CB4B928E5136700113AD6 /* user.jpg in Resources */,
 				163CB4B328E5111D00113AD6 /* WithoutSans-Regular.ttf in Resources */,
