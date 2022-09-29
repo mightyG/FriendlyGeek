@@ -7,23 +7,69 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		163CB4AF28E50D2800113AD6 /* RoundedViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 163CB4AE28E50D2800113AD6 /* RoundedViews.swift */; };
+		163CB4B328E5111D00113AD6 /* WithoutSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 163CB4B228E5111D00113AD6 /* WithoutSans-Regular.ttf */; };
+		163CB4B728E5118900113AD6 /* WithoutSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 163CB4B628E5118900113AD6 /* WithoutSans-Bold.ttf */; };
+		163CB4B928E5136700113AD6 /* user.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 163CB4B828E5136700113AD6 /* user.jpg */; };
+		163CB4BC28E5242800113AD6 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 163CB4BB28E5242800113AD6 /* UserModel.swift */; };
+		163CB4BE28E5256500113AD6 /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 163CB4BD28E5256500113AD6 /* ProfileViewModel.swift */; };
+		1652BBDE28E62A6700350E1E /* EditBioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1652BBDD28E62A6700350E1E /* EditBioViewController.swift */; };
+		1652BBE028E62A7600350E1E /* EditBioViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1652BBDF28E62A7600350E1E /* EditBioViewModel.swift */; };
+		1652BBE328E62B5A00350E1E /* FriendlyTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1652BBE228E62B5A00350E1E /* FriendlyTextView.swift */; };
+		1652BBE628E62E5B00350E1E /* EditImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1652BBE528E62E5B00350E1E /* EditImageViewController.swift */; };
+		1652BBE828E62E6D00350E1E /* EditImageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1652BBE728E62E6D00350E1E /* EditImageViewModel.swift */; };
+		1652BBEB28E6375B00350E1E /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1652BBEA28E6375B00350E1E /* ImagePicker.swift */; };
+		16562F7C28E620A00080EA6B /* EditPhoneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16562F7B28E620A00080EA6B /* EditPhoneViewController.swift */; };
+		16562F7E28E6217A0080EA6B /* EditPhoneViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16562F7D28E6217A0080EA6B /* EditPhoneViewModel.swift */; };
+		16562F8128E621BC0080EA6B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16562F8028E621BC0080EA6B /* ViewController.swift */; };
+		16562F8328E627FA0080EA6B /* EditEmailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16562F8228E627FA0080EA6B /* EditEmailViewController.swift */; };
+		16562F8528E628040080EA6B /* EditEmailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16562F8428E628040080EA6B /* EditEmailViewModel.swift */; };
 		16788C7428E50ACF00279110 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16788C7328E50ACF00279110 /* AppDelegate.swift */; };
 		16788C7628E50ACF00279110 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16788C7528E50ACF00279110 /* SceneDelegate.swift */; };
-		16788C7828E50ACF00279110 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16788C7728E50ACF00279110 /* ViewController.swift */; };
 		16788C7B28E50ACF00279110 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16788C7928E50ACF00279110 /* Main.storyboard */; };
 		16788C7D28E50AD000279110 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16788C7C28E50AD000279110 /* Assets.xcassets */; };
 		16788C8028E50AD000279110 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16788C7E28E50AD000279110 /* LaunchScreen.storyboard */; };
+		167BFCB628E52FC200B9D028 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167BFCB528E52FC200B9D028 /* ProfileViewController.swift */; };
+		167BFCB828E5E9DF00B9D028 /* FriendlyTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167BFCB728E5E9DF00B9D028 /* FriendlyTextField.swift */; };
+		167BFCBD28E5FE1200B9D028 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167BFCBC28E5FE1200B9D028 /* Extensions.swift */; };
+		167BFCBF28E600D700B9D028 /* EditNameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167BFCBE28E600D700B9D028 /* EditNameViewController.swift */; };
+		167BFCC128E60CCC00B9D028 /* EditNameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 167BFCC028E60CCC00B9D028 /* EditNameViewModel.swift */; };
+		9304CCFBDDA55BB20EF374CC /* Pods_FriendlyGeek.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 657FDA6912C38AAF5174DE98 /* Pods_FriendlyGeek.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		163CB4AE28E50D2800113AD6 /* RoundedViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedViews.swift; sourceTree = "<group>"; };
+		163CB4B228E5111D00113AD6 /* WithoutSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "WithoutSans-Regular.ttf"; sourceTree = "<group>"; };
+		163CB4B628E5118900113AD6 /* WithoutSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "WithoutSans-Bold.ttf"; sourceTree = "<group>"; };
+		163CB4B828E5136700113AD6 /* user.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = user.jpg; sourceTree = "<group>"; };
+		163CB4BB28E5242800113AD6 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		163CB4BD28E5256500113AD6 /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
+		1652BBDD28E62A6700350E1E /* EditBioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditBioViewController.swift; sourceTree = "<group>"; };
+		1652BBDF28E62A7600350E1E /* EditBioViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditBioViewModel.swift; sourceTree = "<group>"; };
+		1652BBE228E62B5A00350E1E /* FriendlyTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendlyTextView.swift; sourceTree = "<group>"; };
+		1652BBE528E62E5B00350E1E /* EditImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditImageViewController.swift; sourceTree = "<group>"; };
+		1652BBE728E62E6D00350E1E /* EditImageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditImageViewModel.swift; sourceTree = "<group>"; };
+		1652BBEA28E6375B00350E1E /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		16562F7B28E620A00080EA6B /* EditPhoneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditPhoneViewController.swift; sourceTree = "<group>"; };
+		16562F7D28E6217A0080EA6B /* EditPhoneViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditPhoneViewModel.swift; sourceTree = "<group>"; };
+		16562F8028E621BC0080EA6B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		16562F8228E627FA0080EA6B /* EditEmailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditEmailViewController.swift; sourceTree = "<group>"; };
+		16562F8428E628040080EA6B /* EditEmailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditEmailViewModel.swift; sourceTree = "<group>"; };
 		16788C7028E50ACF00279110 /* FriendlyGeek.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FriendlyGeek.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		16788C7328E50ACF00279110 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		16788C7528E50ACF00279110 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		16788C7728E50ACF00279110 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		16788C7A28E50ACF00279110 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		16788C7C28E50AD000279110 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		16788C7F28E50AD000279110 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		16788C8128E50AD000279110 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		167BFCB528E52FC200B9D028 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		167BFCB728E5E9DF00B9D028 /* FriendlyTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendlyTextField.swift; sourceTree = "<group>"; };
+		167BFCBC28E5FE1200B9D028 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		167BFCBE28E600D700B9D028 /* EditNameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditNameViewController.swift; sourceTree = "<group>"; };
+		167BFCC028E60CCC00B9D028 /* EditNameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditNameViewModel.swift; sourceTree = "<group>"; };
+		1F6115028D5F39CCDC4EDA29 /* Pods-FriendlyGeek.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FriendlyGeek.debug.xcconfig"; path = "Target Support Files/Pods-FriendlyGeek/Pods-FriendlyGeek.debug.xcconfig"; sourceTree = "<group>"; };
+		657FDA6912C38AAF5174DE98 /* Pods_FriendlyGeek.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FriendlyGeek.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		758486B626369587485F5F6A /* Pods-FriendlyGeek.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FriendlyGeek.release.xcconfig"; path = "Target Support Files/Pods-FriendlyGeek/Pods-FriendlyGeek.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +77,107 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9304CCFBDDA55BB20EF374CC /* Pods_FriendlyGeek.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		163CB4B028E510F900113AD6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				163CB4B828E5136700113AD6 /* user.jpg */,
+				163CB4B128E5110500113AD6 /* Fonts */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		163CB4B128E5110500113AD6 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				163CB4B228E5111D00113AD6 /* WithoutSans-Regular.ttf */,
+				163CB4B628E5118900113AD6 /* WithoutSans-Bold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		163CB4BA28E5241D00113AD6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				163CB4BB28E5242800113AD6 /* UserModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		163CB4BF28E52ABC00113AD6 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				167BFCB528E52FC200B9D028 /* ProfileViewController.swift */,
+				163CB4BD28E5256500113AD6 /* ProfileViewModel.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		1652BBE128E62A7C00350E1E /* EditBio */ = {
+			isa = PBXGroup;
+			children = (
+				1652BBDD28E62A6700350E1E /* EditBioViewController.swift */,
+				1652BBDF28E62A7600350E1E /* EditBioViewModel.swift */,
+			);
+			path = EditBio;
+			sourceTree = "<group>";
+		};
+		1652BBE428E62CFF00350E1E /* Generic */ = {
+			isa = PBXGroup;
+			children = (
+				16562F8028E621BC0080EA6B /* ViewController.swift */,
+			);
+			path = Generic;
+			sourceTree = "<group>";
+		};
+		1652BBE928E62E7400350E1E /* EditImage */ = {
+			isa = PBXGroup;
+			children = (
+				1652BBE528E62E5B00350E1E /* EditImageViewController.swift */,
+				1652BBE728E62E6D00350E1E /* EditImageViewModel.swift */,
+			);
+			path = EditImage;
+			sourceTree = "<group>";
+		};
+		1652BBEC28E6375F00350E1E /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				1652BBEA28E6375B00350E1E /* ImagePicker.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		16562F7F28E6217E0080EA6B /* EditPhone */ = {
+			isa = PBXGroup;
+			children = (
+				16562F7B28E620A00080EA6B /* EditPhoneViewController.swift */,
+				16562F7D28E6217A0080EA6B /* EditPhoneViewModel.swift */,
+			);
+			path = EditPhone;
+			sourceTree = "<group>";
+		};
+		16562F8628E6280C0080EA6B /* EditEmail */ = {
+			isa = PBXGroup;
+			children = (
+				16562F8228E627FA0080EA6B /* EditEmailViewController.swift */,
+				16562F8428E628040080EA6B /* EditEmailViewModel.swift */,
+			);
+			path = EditEmail;
+			sourceTree = "<group>";
+		};
 		16788C6728E50ACF00279110 = {
 			isa = PBXGroup;
 			children = (
 				16788C7228E50ACF00279110 /* FriendlyGeek */,
 				16788C7128E50ACF00279110 /* Products */,
+				41D9BF19CFD0DC8818738673 /* Pods */,
+				ED01E08356362903FEB8C1DC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +194,60 @@
 			children = (
 				16788C7328E50ACF00279110 /* AppDelegate.swift */,
 				16788C7528E50ACF00279110 /* SceneDelegate.swift */,
-				16788C7728E50ACF00279110 /* ViewController.swift */,
 				16788C7928E50ACF00279110 /* Main.storyboard */,
+				1652BBE428E62CFF00350E1E /* Generic */,
+				163CB4BF28E52ABC00113AD6 /* Profile */,
+				167BFCC228E60CD200B9D028 /* EditName */,
+				16562F7F28E6217E0080EA6B /* EditPhone */,
+				16562F8628E6280C0080EA6B /* EditEmail */,
+				1652BBE128E62A7C00350E1E /* EditBio */,
+				1652BBE928E62E7400350E1E /* EditImage */,
+				163CB4BA28E5241D00113AD6 /* Models */,
+				16788C8728E50ADF00279110 /* CustomViews */,
+				1652BBEC28E6375F00350E1E /* Helpers */,
+				163CB4B028E510F900113AD6 /* Resources */,
 				16788C7C28E50AD000279110 /* Assets.xcassets */,
 				16788C7E28E50AD000279110 /* LaunchScreen.storyboard */,
 				16788C8128E50AD000279110 /* Info.plist */,
 			);
 			path = FriendlyGeek;
+			sourceTree = "<group>";
+		};
+		16788C8728E50ADF00279110 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				163CB4AE28E50D2800113AD6 /* RoundedViews.swift */,
+				167BFCB728E5E9DF00B9D028 /* FriendlyTextField.swift */,
+				1652BBE228E62B5A00350E1E /* FriendlyTextView.swift */,
+				167BFCBC28E5FE1200B9D028 /* Extensions.swift */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		167BFCC228E60CD200B9D028 /* EditName */ = {
+			isa = PBXGroup;
+			children = (
+				167BFCBE28E600D700B9D028 /* EditNameViewController.swift */,
+				167BFCC028E60CCC00B9D028 /* EditNameViewModel.swift */,
+			);
+			path = EditName;
+			sourceTree = "<group>";
+		};
+		41D9BF19CFD0DC8818738673 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1F6115028D5F39CCDC4EDA29 /* Pods-FriendlyGeek.debug.xcconfig */,
+				758486B626369587485F5F6A /* Pods-FriendlyGeek.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		ED01E08356362903FEB8C1DC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				657FDA6912C38AAF5174DE98 /* Pods_FriendlyGeek.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +257,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 16788C8428E50AD000279110 /* Build configuration list for PBXNativeTarget "FriendlyGeek" */;
 			buildPhases = (
+				D2E88F70573DA5244C79B769 /* [CP] Check Pods Manifest.lock */,
 				16788C6C28E50ACF00279110 /* Sources */,
 				16788C6D28E50ACF00279110 /* Frameworks */,
 				16788C6E28E50ACF00279110 /* Resources */,
+				268C14F3F3DCCD0DE38E6FFF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -128,18 +313,81 @@
 				16788C8028E50AD000279110 /* LaunchScreen.storyboard in Resources */,
 				16788C7D28E50AD000279110 /* Assets.xcassets in Resources */,
 				16788C7B28E50ACF00279110 /* Main.storyboard in Resources */,
+				163CB4B728E5118900113AD6 /* WithoutSans-Bold.ttf in Resources */,
+				163CB4B928E5136700113AD6 /* user.jpg in Resources */,
+				163CB4B328E5111D00113AD6 /* WithoutSans-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		268C14F3F3DCCD0DE38E6FFF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FriendlyGeek/Pods-FriendlyGeek-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FriendlyGeek/Pods-FriendlyGeek-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FriendlyGeek/Pods-FriendlyGeek-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D2E88F70573DA5244C79B769 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FriendlyGeek-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		16788C6C28E50ACF00279110 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				16788C7828E50ACF00279110 /* ViewController.swift in Sources */,
+				167BFCBF28E600D700B9D028 /* EditNameViewController.swift in Sources */,
+				167BFCB628E52FC200B9D028 /* ProfileViewController.swift in Sources */,
+				1652BBE328E62B5A00350E1E /* FriendlyTextView.swift in Sources */,
+				1652BBEB28E6375B00350E1E /* ImagePicker.swift in Sources */,
+				163CB4BE28E5256500113AD6 /* ProfileViewModel.swift in Sources */,
+				163CB4AF28E50D2800113AD6 /* RoundedViews.swift in Sources */,
+				167BFCBD28E5FE1200B9D028 /* Extensions.swift in Sources */,
+				1652BBDE28E62A6700350E1E /* EditBioViewController.swift in Sources */,
+				16562F8328E627FA0080EA6B /* EditEmailViewController.swift in Sources */,
+				1652BBE628E62E5B00350E1E /* EditImageViewController.swift in Sources */,
+				16562F7C28E620A00080EA6B /* EditPhoneViewController.swift in Sources */,
+				1652BBE028E62A7600350E1E /* EditBioViewModel.swift in Sources */,
+				167BFCC128E60CCC00B9D028 /* EditNameViewModel.swift in Sources */,
+				1652BBE828E62E6D00350E1E /* EditImageViewModel.swift in Sources */,
+				16562F7E28E6217A0080EA6B /* EditPhoneViewModel.swift in Sources */,
+				16562F8128E621BC0080EA6B /* ViewController.swift in Sources */,
+				16562F8528E628040080EA6B /* EditEmailViewModel.swift in Sources */,
 				16788C7428E50ACF00279110 /* AppDelegate.swift in Sources */,
+				163CB4BC28E5242800113AD6 /* UserModel.swift in Sources */,
+				167BFCB828E5E9DF00B9D028 /* FriendlyTextField.swift in Sources */,
 				16788C7628E50ACF00279110 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,6 +530,7 @@
 		};
 		16788C8528E50AD000279110 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F6115028D5F39CCDC4EDA29 /* Pods-FriendlyGeek.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -290,11 +539,13 @@
 				DEVELOPMENT_TEAM = N52H727QXY;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = FriendlyGeek/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app wants to take pictures.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "This app wants to use your photos.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -310,6 +561,7 @@
 		};
 		16788C8628E50AD000279110 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 758486B626369587485F5F6A /* Pods-FriendlyGeek.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -318,11 +570,13 @@
 				DEVELOPMENT_TEAM = N52H727QXY;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = FriendlyGeek/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app wants to take pictures.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "This app wants to use your photos.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
